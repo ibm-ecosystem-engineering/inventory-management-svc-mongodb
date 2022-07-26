@@ -8,6 +8,7 @@ public class StockItem implements Serializable {
   private String name;
   @Id
   private String id = null;
+
   private int stock = 0;
   private double price = 0.0;
   private String manufacturer = "";
@@ -45,6 +46,7 @@ public class StockItem implements Serializable {
     this.setId(id);
     return this;
   }
+
 
   public int getStock() {
     return stock;
